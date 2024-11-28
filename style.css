@@ -1,0 +1,152 @@
+*, :root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: abc;
+    src: url('./fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: thn;
+    src: url('./fonts/Roboto-Thin.ttf');
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    /* justify-content: space-between;  */
+    align-items: end;
+    padding: 0px 80px;
+    padding-top: 100px;
+    gap: 15px;
+}
+#left{
+    height: 100%;
+    width: 48%;
+    padding-bottom: 30px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left h1{
+    font-size: 130px;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: abc;
+}
+#bottom-left{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color:chocolate; */
+}
+#color{
+    width: fit-content;
+    /* background-color: aquamarine; */
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#color h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin: 3px;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color:darkred;
+    border-radius: 50%;
+    margin: 3px;
+}
+#left h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#left p{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 600;
+    line-height: 26px;
+    color: #444;
+}
+#right{
+    height: 95%;
+    width: 35%;
+    /* background-color:greenyellow; */
+    position: relative;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px ;
+}
+
+#right-top h4{
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 500;
+} 
+#right-top h5{
+    font-size: 15px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+#right img{
+    width: 100%;
+    height: 91%;
+    object-fit: cover;
+}
+#black-gola{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: #b3c2c6;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -20%;
+    top: 20%;
+
+}
+#black-gola h5{
+    font-size: 27px;
+    font-weight: 500;
+}
+ #rotated{
+    position: absolute;
+    transform-origin: 0 0;
+    rotate: -90deg ;
+    left: -15%;
+    bottom: 5%;
+    font-family: Roboto;
+ }
